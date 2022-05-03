@@ -19,5 +19,5 @@ Route::get('/', function () {
         'cognome' => 'Giorgione',
         'provenienza' => 'San Giorgio'
     ];
-    return view('home');
+    return view('home', $data);
 });
